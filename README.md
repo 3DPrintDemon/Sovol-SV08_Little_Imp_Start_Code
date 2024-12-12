@@ -19,7 +19,7 @@ This basic system is presented "as is" & without warranty!
 
 *********************
 
-## Edit your Printer.cfg File
+## Edit your Macro.cfg File
 
 
 ### Step 1:
