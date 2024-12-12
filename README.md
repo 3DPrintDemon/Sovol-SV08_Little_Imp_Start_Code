@@ -172,7 +172,7 @@ M400
 ; Z_OFFSET_CALIBRATION
 ; M400
 
-; Did you remember to comment out lines 131 & 132 in your stock Sovol Macro.cfg file?! You'll cuase damage if not & you use the above section.
+; Did you remember to comment out lines 131 & 132 in your stock Sovol Macro.cfg file?! You'll cause damage if not & you use the above section.
 ; Auto Z actions above this line ^^^^^^^
 
 M117
