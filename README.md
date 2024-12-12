@@ -15,17 +15,16 @@ Using this feature could result in a high chance of PRINTER DAMAGE! I recommend 
 
 ## ANY PRINTER DAMAGE THAT RESULTS FROM ENABLING THIS PER-PRINT AUTO Z FEATURE IS TOTALLY ON YOU, YOU HAVE BEEN WARNED> USE AT YOUR OWN RISK!
 
-
+*********************
 
 ## Edit your Printer.cfg File
 
+
 ### Step 1:
 
+### DAMAGE WARNING!!! If you enable the per-print auto Z feature in the Machine Start G-code BUT do NOT comment out the two lines shown below you WILL do the test print BEFORE your main print starts! THIS IS VERY BAD!! DO NOT FORGET TO DO THIS!!
+
 Open your stock Sovol `Macro.cfg` file & scroll down to lines 131 & line 132
-
-
-## DAMAGE WARNING!!!
-### If you enable the per-print auto Z feature in the Machine Start G-code BUT do NOT comment out the two lines shown below you WILL do the test print BEFORE your main print starts! THIS IS VERY BAD!! DO NOT FORGET TO DO THIS!!
 
 Comment out these two lines by putting a hashtag at the very start of both of them:
 
@@ -171,6 +170,7 @@ M400
 ; Z_OFFSET_CALIBRATION
 ; M400
 
+; Did you remember to comment out lines 131 & 132 in your stock Sovol Macro.cfg file?! You'll cuase damage if not & you use the above section.
 ; Auto Z actions above this line ^^^^^^^
 
 M117
