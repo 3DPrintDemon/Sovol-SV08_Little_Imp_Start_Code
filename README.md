@@ -10,7 +10,7 @@ If you feel this start Gcode is valuable enough to use please consider hitting t
 
 This is a simple back to basics stand-alone slicer start gcode mod, there are no frills, no bells or whistles, it is only a functional reworking of the original Sovol SV08 Orca Slicer Machine Start Gcode that does not lock you into single temperature pre-print setup. With just a few simple edits you can easily modify your system.
 
-It will do all the pre-print setup at print file temperatures with the nozzle qt 160ºc & then raise to printing temperature before printing the stock purge lines. No more stock heating & cooling to this or that temperature. You can also now opt to do an auto Z offset (WITHOUT THE TEST PRINT!!) each time the print starts, edits required! I personally DO NOT recommend this, as at the time of writing the Sovol auto Z offset process is NOT accurate or reliable enough for repeated per-print use!
+It will do all the pre-print setup at print file temperatures with the nozzle at 160ºc & then raise to printing temperature before printing the stock purge lines. No more stock heating & cooling to this or that temperature. You can also now opt to do an auto Z offset (WITHOUT THE TEST PRINT!!) each time the print starts, edits required! I personally DO NOT recommend this, as at the time of writing the Sovol auto Z offset process is NOT accurate or reliable enough for repeated per-print use!
 Using this feature could result in a high chance of PRINTER DAMAGE! I recommend you DO NOT use it. However the option is there & you can enable it if you wish. 
 
 ## ANY PRINTER DAMAGE THAT RESULTS FROM ENABLING THIS PER-PRINT AUTO Z FEATURE IS TOTALLY ON YOU, YOU HAVE BEEN WARNED> USE AT YOUR OWN RISK!
@@ -22,6 +22,10 @@ Using this feature could result in a high chance of PRINTER DAMAGE! I recommend 
 ### Step 1:
 
 Open your stock Sovol `Macro.cfg` file & scroll down to lines 131 & line 132
+
+
+## DAMAGE WARNING!!!
+### If you enable the per-print auto Z feature in the Machine Start G-code BUT do NOT comment out the two lines shown below you WILL do the test print BEFORE your main print starts! THIS IS VERY BAD!! DO NOT FORGET TO DO THIS!!
 
 Comment out these two lines by putting a hashtag at the very start of both of them:
 
