@@ -15,7 +15,7 @@ Using this feature could result in a high chance of PRINTER DAMAGE! I recommend 
 
 ## ANY PRINTER DAMAGE THAT RESULTS FROM USING THE INFORMATION HERE &/OR ENABLING THIS PER-PRINT AUTO Z FEATURE IS TOTALLY ON YOU, YOU HAVE BEEN WARNED> USE AT YOUR OWN RISK!
 
-This basic system is presented "as is" & without warranty!
+This basic system is presented "as is" & without warranty! It has been tested but not by me personally. It is known working!
 
 *********************
 
