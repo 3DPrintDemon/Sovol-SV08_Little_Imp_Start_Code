@@ -126,6 +126,7 @@ gcode:
   {% endif %}
 
 ```
+Original unedited macro is found [here](https://github.com/Sovol3d/SV08/blob/main/home/sovol/printer_data/config/Macro.cfg)
 
 ### Step 4: 
 
