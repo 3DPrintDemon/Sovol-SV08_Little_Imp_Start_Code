@@ -13,7 +13,9 @@ This is a simple back to basics stand-alone slicer start gcode mod, there are no
 It will do all the pre-print setup at print file temperatures with the nozzle at 160ºc & then raise to printing temperature before printing the stock purge lines. No more stock heating & cooling to this or that temperature. You can also now opt to do an auto Z offset (WITHOUT THE TEST PRINT!!) each time the print starts, edits required! I personally DO NOT recommend this, as at the time of writing the Sovol auto Z offset process is NOT accurate or reliable enough for repeated per-print use!
 Using this feature could result in a high chance of PRINTER DAMAGE! I recommend you DO NOT use it. However the option is there & you can enable it if you wish. 
 
-## ANY PRINTER DAMAGE THAT RESULTS FROM ENABLING THIS PER-PRINT AUTO Z FEATURE IS TOTALLY ON YOU, YOU HAVE BEEN WARNED> USE AT YOUR OWN RISK!
+## ANY PRINTER DAMAGE THAT RESULTS FROM USING THE INFORMATION HERE &/OR ENABLING THIS PER-PRINT AUTO Z FEATURE IS TOTALLY ON YOU, YOU HAVE BEEN WARNED> USE AT YOUR OWN RISK!
+
+This basic system is presented "as is" & without warranty!
 
 *********************
 
