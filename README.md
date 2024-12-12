@@ -209,6 +209,9 @@ Save your new start g-code in your Orca profile
 *********************
 
 FIRST USE WARNING!
+
 Be very careful using any new macros or settings for the first time. Cover the emergency stop button incase something should go wrong, you never know. Every effort has been made to make sure these changes are good & that they work, but please do be careful. By using any information contained here on this page you accept full responiblity & liability for any & all bad outcomes &/or damage or loss incurred. Use at your own risk. 
+
+*********************
 
 [<img width="171" alt="kofi_s_tag_dark" src="https://github.com/3DPrintDemon/Demon_Klipper_Essentials_Unified/assets/122202359/08473899-563b-4b4d-9409-5e6602d6ec44">](https://ko-fi.com/3dprintdemon)
