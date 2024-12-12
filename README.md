@@ -39,93 +39,25 @@ EXAMPLE
 
 ### Step 2:
 
-Now select the entire `[gcode_macro CLEAN_NOZZLE]` macro.
+Now move to the `[gcode_macro CLEAN_NOZZLE]` macro.
 
-This starts at line 48 & ends at line 114
-
-Now with all those lines selected press ctrl+/ on PC or CMD+/ on MacOS
-
-This will now place a hashtag at the beginning of each line of the selection, commenting the whole thing out of the system.
-
-
-### Step 3:
-
-Deselect the now commented out CLEAN_NOZZLE macro from the previous step 
-
-Put the curser on very end of line 114, NOT the beginning, then press return two times to drop the remaining text down two lines & to create some clear space between macros.
-
-Now paste in this edited macro underneath the old one, it uses exaclty the same movements & positioning as your old stock one:
+Edit line 56 to read
 ```
-[gcode_macro CLEAN_NOZZLE] 
-gcode:
-    {% if printer.toolhead.homed_axes != "xyz" %}
-       G28
-    {% endif %}
-    G90 
-    G1 X348 Y0 Z0.3 F9000
-    M117 Nozzle heating...
-    M109 S160
-    G91
-    G1 Z10 F300
-    G90
-    M106 S255
-    M117 Clean nozzle
-    G1 X315 Y360 F9000
-    G1 Z0.2 F300
-    G1 X352 F4500
-    G1 Y360 X324
-    G1 Y360 X345
-    G1 Y360 X324
-    G1 Y360 X345
-    G1 Y360 X324
-    G1 Y360 X345
-    G1 Y360 X324
-    G1 Y360 X345
-    G1 Y360 X324
-    G1 Y360 X325
-    G1 Y356 X324 Z5
-    G1 Z0.2
-    G1 Y360 X324
-    G1 Y357 X326
-    G1 Y360 X326
-    G1 Y357 X328
-    G1 Y360 X330
-    G1 Y357 X332
-    G1 Y360 X334
-    G1 Y357 X336
-    G1 Y360 X338
-    G1 Y357 X340
-    G1 Y360 X324
-    G1 Y357 X326
-    G1 Y360 X326
-    G1 Y357 X328
-    G1 Y360 X330
-    G1 Y357 X332
-    G1 Y360 X334
-    G1 Y357 X336
-    G1 Y360 X338
-    G1 Y357 X340
-    G1 Y360 X324
-    G1 Y357 X326
-    G1 Y360 X326
-    G1 Y357 X328
-    G1 Y360 X330
-    G1 Y357 X332
-    G1 Y360 X334
-    G1 Y357 X336
-    G1 Y360 X338
-    M400
-    M117 Clean Finish
-    M107 
-    G91
-    G1 Z10 F300
-    G90
-    G28 Z0
-  {% if printer.print_stats.state not in ["printing", "paused"] %}
-      M104 S0
-  {% endif %}
-
+ M109 S160
 ```
+
+Edit line 61 to read
+```
+# M104 S130
+```
+
+Edit line 109 to read
+```
+# M109 S130
+```
+
+
+
 Original unedited macro is found [here](https://github.com/Sovol3d/SV08/blob/main/home/sovol/printer_data/config/Macro.cfg)
 
 ### Step 4: 
