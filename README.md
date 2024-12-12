@@ -106,7 +106,7 @@ M400
 ; M400
 
 ; Did you remember to comment out lines 131 & 132 in your stock Sovol Macro.cfg file?! You'll cause damage if not & you use the above section.
-; Auto Z actions above this line ^^^^^^^
+; Auto Z actions above this line
 
 M117
 G0 Z20
