@@ -133,7 +133,7 @@ Press the Save & Restart button at the top of the screen.
 
 *********************
 
-## Edit Your ORCA Slicer Machine Start Code
+## Edit Your ORCA Slicer Machine Start G-code
 
 ### STEP 1:
 
