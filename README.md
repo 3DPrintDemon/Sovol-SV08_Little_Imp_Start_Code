@@ -1,4 +1,4 @@
-# SV08 Litte Imp Stand Alone ORCA SLICER Machine Start Gcode
+# SV08 Flexible Stand Alone ORCA SLICER Machine Start Gcode
 
 If you feel this start Gcode is valuable enough to use please consider hitting that "sponsor this project" button or the Ko-Fi image below or at https://ko-fi.com/3dprintdemon & buying me a beer/coffee. It's always very much appreciated & anything you do send goes towards helping me continue putting my ideas out there for the whole 3D printing community. Sending even a little makes a difference! Thank you & happy printing!!
 
@@ -81,7 +81,7 @@ Replace the entire Machine Start G-code text with this:
 
 
 ```
-; 3DPrintDemon Little Imp Orca Slicer Machine Start Gcode
+; 3DPrintDemon Flexible Orca Slicer Machine Start Gcode
 G90
 M83
 G28
